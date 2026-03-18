@@ -20,3 +20,5 @@ void CalculateMax(int[] values)
     }
     Console.WriteLine("Max value: " + max);
 }
+
+void CalculateMin(int[] values)
