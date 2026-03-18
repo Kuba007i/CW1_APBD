@@ -5,7 +5,7 @@ for (int i = 0; i < 12; i++){
 }
 
 
-
+Console.WriteLine("Conflict of files!");
 Console.WriteLine("Goodbye, World!");
 
 void CalculateMax(int[] values)
@@ -20,3 +20,5 @@ void CalculateMax(int[] values)
     }
     Console.WriteLine("Max value: " + max);
 }
+
+// HAHAHAHA
