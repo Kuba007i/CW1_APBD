@@ -20,5 +20,3 @@ void CalculateMax(int[] values)
     }
     Console.WriteLine("Max value: " + max);
 }
-
-// HAHAHAHA
