@@ -7,3 +7,16 @@ for (int i = 0; i < 12; i++){
 
 
 Console.WriteLine("Goodbye, World!");
+
+void CalculateMax(int[] values)
+{
+    int max = values[0];
+    for (int i = 1; i < values.Length; i++)
+    {
+        if (values[i] > max)
+        {
+            max = values[i];
+        }
+    }
+    Console.WriteLine("Max value: " + max);
+}
